@@ -22,6 +22,9 @@ protoc-artifacts/build-protoc.sh linux aarch_64 protoc
 sudo apt install -y g++-powerpc64le-linux-gnu
 protoc-artifacts/build-protoc.sh linux ppcle_64 protoc
 
+sudo apt install -y g++-riscv64-linux-gnu
+protoc-artifacts/build-protoc.sh linux riscv64 protoc
+
 sudo apt install -y g++-s390x-linux-gnu
 protoc-artifacts/build-protoc.sh linux s390_64 protoc
 
